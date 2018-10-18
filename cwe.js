@@ -10,8 +10,10 @@
 
     function CWE_476() { // NULL_POINTER
         var obj = {};
+        var obj2;
         var y = obj.x;
-        console.log(y);
+        var z = obj.y;
+        console.log(y, z);
     }
 
     function CWE_480() { // BAD_BITWISE_OPERATOR
