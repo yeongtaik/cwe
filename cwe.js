@@ -13,7 +13,7 @@
         var obj2;
         var obj3;
         var y = obj.x;
-        var z = obj.y;
+        var z = obj2.y;
         var x = obj.z;
         console.log(y, z, x);
     }
