@@ -19,8 +19,15 @@
     }
 
     function CWE_480() { // BAD_BITWISE_OPERATOR
-        var obj = null;
-        if (obj & obj.prop) {
+        var obj;
+        if (obj.prop) {
+            console.log(obj.prop);
+        }
+    }
+
+function CWE_480() { // BAD_BITWISE_OPERATOR
+        var obj;
+        if (obj.prop) {
             console.log(obj.prop);
         }
     }
